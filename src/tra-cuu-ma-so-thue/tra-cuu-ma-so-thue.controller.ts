@@ -22,10 +22,10 @@ export class TraCuuMaSoThueController {
     summary: 'Tra cứu thông tin của người nộp thuế theo mã số thuế',
   })
   @ApiResponse({
-    // @ApiResponse({ thêm các trường hợp khác...
     status: 200,
     description: 'Thông tin của người nộp thuế theo mã số thuế',
   })
+    // @ApiResponse({ thêm các trường hợp khác...
   async traCuuMaSoThue(@Body() traCuuMaSoThueDto: TraCuuMaSoThueDto) {
     const result =
       await this.traCuuMaSoThueService.traCuuMaSoThue(traCuuMaSoThueDto);
