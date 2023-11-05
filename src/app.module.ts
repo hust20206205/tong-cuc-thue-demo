@@ -3,6 +3,7 @@ import { AppController } from "./app.controller";
 import { AppService } from "./app.service";
 import { TypeOrmModule } from "@nestjs/typeorm";
 import { TraCuuMaSoThueModule } from './tra-cuu-ma-so-thue/tra-cuu-ma-so-thue.module';
+import { SeederModule } from './seeder/seeder.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { TraCuuMaSoThueModule } from './tra-cuu-ma-so-thue/tra-cuu-ma-so-thue.mo
       logging: true,
     }),
     TraCuuMaSoThueModule,
+    SeederModule,
   ],
   controllers: [AppController],
   providers: [AppService],

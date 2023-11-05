@@ -26,6 +26,7 @@ return `${firstName} ${lastName}`;
 <!-- Seeder -->
 
 nest g resource Seeder --no-spec
-
+<!-- co_quan_thue.json -->
+nest-cli.json
 <!-- "assets": ["seeder/**/*"], -->
 <!-- Xong Seeder -->
