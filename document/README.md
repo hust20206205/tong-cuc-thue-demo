@@ -22,3 +22,10 @@ npm audit fix --force
 const firstName = faker.name.firstName();
 const lastName = faker.name.lastName();
 return `${firstName} ${lastName}`;
+
+<!-- Seeder -->
+
+nest g resource Seeder --no-spec
+
+<!-- "assets": ["seeder/**/*"], -->
+<!-- Xong Seeder -->

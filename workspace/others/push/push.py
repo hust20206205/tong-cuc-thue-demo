@@ -3,7 +3,7 @@ from modules.MyImport import MyImport
 from modules.MyNow import MyNow
 message = MyNow()
 message = "VuVanNghia20206205"
-message = "TraCuuMaSoThue"
+message = "Seeder"
 from modules.MyGit import MyGit
 MyGit.add(message)
 MyGit.commit(message)
